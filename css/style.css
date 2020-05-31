@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;  
+    width: 99%;
+    
+}
+
+
+/* MENU PROFILE */
+.menu{
+   /* border: 1px solid red;*/
+    position: fixed;
+    width: 15%;
+    min-height: 100vh;
+    background-color: rgb(31, 131, 238);
+    color: #fff;
+    max-width: 480px;
+}
+
+.profile{
+    
+    display: block;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.profile-img{
+   /* display: block;*/
+    max-width: 70%;   
+    align-items: center;
+}
+
+.profile-user{
+    padding-top: 1rem;
+    display: block;
+    text-align: center;
+    font-size: 1.8vw;
+    
+}
+
+.profile-img img{
+    max-width: 100%; 
+    border-radius: 50%;
+    margin: auto;
+    
+}
+
+/*MENU LIST*/
+
+ul{
+    list-style-type: none;
+}
+
+.link-nav{
+    color: white; 
+    text-decoration: none; 
+    padding: 1rem;
+    display: block; 
+}
+
+.list-nav{
+    padding: 1rem;
+}
+
+.list-nav-second{
+    display:none;
+}
+
+.icon{
+    width: 1.5rem;
+}
+
+.item-nav:hover{
+    background-color: rgb(97, 97, 97);
+}
+
+.item-nav{
+    padding-top: 1rem;
+    font-size: 1.2vw;
+}
+
+
+/* CONTEÚDO */
+
+.content{
+    width: 85%;
+    margin-left: 15%;
+    height: 100vh;
+    padding-right: 1rem;
+    
+    
+}
+
+.sobre, .formacao, .experiencia, .contato{
+    padding: 1rem;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-color: rgb(79, 229, 255);
+   
+} 
+
+.sobre{
+    display: flex;
+    text-align: justify;
+    
+}
+.sobre-conteudo{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;
+    margin: auto;
+}
+
+.sobre p{
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 10rem;
+
+}
+
+.sobre img{
+    float: right;
+    height: 60vh;
+    vertical-align: middle;
+    padding-left: 1rem;
+}
+
+.formacao-conteudo{
+    width: 80%;
+    margin: 10% 10%;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;  
+
+}
+
+.formacao img{
+    float: right;
+    height: 60vh;
+    vertical-align: middle;
+    padding-left: 1rem;
+}
+
+.formacao-conteudo li{
+    font-weight: bold;
+    font-size: large;
+}
+
+.experiencia-conteudo{
+    width: 80%;
+    margin: 10% 10%;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: left;  
+
+}
+
+.experiencia img{
+    float: right;
+    height: 60vh;
+    vertical-align: middle;
+    padding-left: 1rem;
+}
+
+.experiencia p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.contato-conteudo{
+    width: 80%;
+    margin: 10% 10%;
+}
+
+.contato p{
+    font-weight: bold;
+    font-size: large;
+}
+
+.item-contato{
+    padding-top: 1rem;
+    font-size: 1.1vw;
+}
+.item-contato i{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.grid-icons{
+    display: inline-flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: fixed;
+    max-width: 100%;
+
+}
+
+.grid-icons i{
+    color: white;
+    width: 50%;
+    padding: 1rem;
+    font-size: 2.5vw;
+}
+
+.social-icons:hover{
+        background-color: rgb(97, 97, 97);   
+}
